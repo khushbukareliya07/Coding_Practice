@@ -12,7 +12,7 @@ public class ProgramThree_MonthDayDisplay {
         }
         else
         {
-            if(month == 1 || month == 3 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+            if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
             {
                 System.out.println("Number of Days =" + (days+1));
             }
@@ -22,7 +22,7 @@ public class ProgramThree_MonthDayDisplay {
                 System.out.println("For leap year, number of Days =" + (days - 2));
             }
             else
-                System.out.println("For leap year, number of Days =" + (days));
+                System.out.println("Number of Days =" + (days));
         }
     }
 }
